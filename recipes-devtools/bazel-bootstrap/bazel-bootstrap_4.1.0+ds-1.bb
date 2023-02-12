@@ -10,7 +10,7 @@
 
 inherit dpkg-gbp
 
-GBP_DEPENDS_remove = "pristine-tar"
+GBP_DEPENDS:remove = "pristine-tar"
 GBP_EXTRA_OPTIONS = "--git-no-pristine-tar --git-upstream-branch=jc-4.1.0 --git-upstream-tree=BRANCH"
 
 # build this package for the buildchroot-host
